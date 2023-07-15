@@ -6,20 +6,21 @@
  */
 int main(void)
 {
+
 	char x;
+
 	char y;
 
-	/* Print x alphabets */
+	/* Print x alphabet */
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
 	}
-	/* Print y alphabets */
+	/* Print y alphabet */
 	for (y = 'A'; y <= 'Z'; y++)
 	{
 		putchar(y);
-	}	
+	}
 	putchar('\n');
 	return (0);
 }
-
