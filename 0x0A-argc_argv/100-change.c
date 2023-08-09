@@ -3,6 +3,7 @@
 /**
  * get_minimum_coins - Calculate minimum number
  * @m: amount of money
+ *
  * Return: minimum number of coin required
  */
 int get_minimum_coins(int m)
