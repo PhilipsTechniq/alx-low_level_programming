@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	{
 		if (i == j - 1)
 		{
-			printf("%2hhx\n", arr[1]);
+			printf("%02hhx\n", arr[1]);
 			break;
 		}
 		printf("%02hhx ", arr[i]);
